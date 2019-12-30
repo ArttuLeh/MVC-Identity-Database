@@ -1,0 +1,21 @@
+
+
+body {
+    font-family: Helvetica, "Times New Roman", Times, serif;
+    background-image: url("Views/img/taustakuva.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#toka {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#kolmas {
+    padding-left: 200px;
+    padding-right: 180px;
+}
