@@ -1,5 +1,5 @@
 <?php
-$user = $user?$user:"Arttu17001";
+$user = $user?$user:"*******";
 $passwd = $passwd?$passwd:"*******";
-$db = $db?$db:"user_Arttu17001";
+$db = $db?$db:"user_Arttu***";
 
