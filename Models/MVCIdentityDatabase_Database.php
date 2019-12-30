@@ -35,7 +35,7 @@ class MVCIdentityDatabase_Database extends PDO // database luokka perii PDO-raja
             $insert_users = "insert into serverside19_users " // lisätään käyttäjä tauluun
                     ."(user, pwd, pri, id, description) values "
                     // annteaan käyttäjätunnus, salasana, id ja pääkäyttäjä arvo
-                    ."('spede', md5('keijo'), '0', '12345678901', 'Pääkäyttäjä')";
+                    ."('spede', md5('*****'), '0', '12345678901', 'Pääkäyttäjä')";
             $show_tables = "show tables like 'serverside19_%s%s'"; // taulun tulostaminen määritellään muuttujaan
             
             $stm = $this->prepare($show_tables); // kutsutaan show_tables muuttujaa PDO rajapinnan valmiilla metodilla
